@@ -53,7 +53,7 @@ automation:
       entity_id: sensor.window
       state: 'open'
   condition:
-    - platform: state
+    - condition: state
       entity_id: alarm_control_panel.ha_alarm
       state: armed_away
   action:
