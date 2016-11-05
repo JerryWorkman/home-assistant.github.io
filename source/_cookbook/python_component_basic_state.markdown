@@ -101,6 +101,8 @@ hello_state:
 
 Thanks to `DEFAULT_TEXT` variable the component will launch even if no `text:` field is used in the `configuration.yaml` file. Quite often there are variables which are required. It's important to check if all mandatory configuration variables are provided. If not, the setup should fail. We will use the `validate_config` function as a helper to achive this. The next listing shows the essential parts.
 
+#Where did validate_config go?
+
 ```python
 from homeassistant.helpers import validate_config
 [...]
